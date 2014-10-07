@@ -10,8 +10,14 @@ class Ex1_0 extends Ex {
 
 class Ex1_2 extends Ex {
 	void execute(){
-		System.out.println("山\n内\n公\n之");
+		System.out.println("金\n城\n奈\n美");
 	}
+}
+
+class Ex1_3 extends Ex {
+    void execute(){
+        System.out.println("金\n城\n\n奈\n美"); 
+    }
 }
 
 public class Ex1 {
@@ -21,5 +27,7 @@ public class Ex1 {
 		a.execute();
 		a = new Ex1_2();
 		a.execute();
+        a = new Ex1_3();
+        a.execute();
 	}
 }
