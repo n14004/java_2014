@@ -103,9 +103,9 @@ class Ex2_5 extends Ex{
         System.out.println("xとyの加と平均を求める");
 
         System.out.print("xの値");
-        double x = stdIn.nextInt();
+        double x = stdIn.nextDouble();
         System.out.print("yの値");
-        double y = stdIn.nextInt();
+        double y = stdIn.nextDouble();
 
         System.out.println("x + y ="+ (x + y));
         System.out.println("xとyの平均 =" + (x + y )/2);
@@ -118,9 +118,9 @@ class Ex2_6 extends Ex{
         System.out.println("三角形の面積を求める");
 
         System.out.print("底辺xの値");
-        double x = stdIn.nextInt();
+        double x = stdIn.nextDouble();
          System.out.print("高さyの値");
-        double y = stdIn.nextInt();
+        double y = stdIn.nextDouble();
 
         System.out.println("x * y / 2 ="+(x * y / 2));
     }
