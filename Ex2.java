@@ -185,6 +185,26 @@ class Ex2_10 extends Ex{
     }
 }
 
+class Ex2_00 extends Ex{
+	void execute(){
+		Scanner stdIn = new Scanner(System.in);
+
+		System.out.println("xとyを加減乗除します。");
+
+		System.out.print("xの値：");		// xの値の入力を促す
+		int x = stdIn.nextInt();
+		
+		System.out.print("yの値：");		// yの値の入力を促す
+		int y = stdIn.nextInt();
+
+		System.out.println("x + x = " + (x + y)); // x + yの値を表示
+		System.out.println("x - x = " + (x - y)); // x - yの値を表示
+		System.out.println("x * x = " + (x * y)); // x * yの値を表示
+		System.out.println("x / x = " + (x / y)); // x / yの値を表示 (商)
+		System.out.println("x % x = " + (x % y)); // x % yの値を表示 (剰余)
+	}
+}
+
 public class Ex2 {
     public static void main(String[] args){
         Ex a;
