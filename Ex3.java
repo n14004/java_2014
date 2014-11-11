@@ -1,8 +1,3 @@
-public class Ex3{
-    public static void main(String[] args){
-    Ex3 ex3 = new Ex3;
-    }
-}
 class Ex3{
 
     public String ex3_0(int n){
